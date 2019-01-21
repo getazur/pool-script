@@ -16,7 +16,7 @@ Run Azur RPC Services:
 
 	azur-rpc --container-file pool.wallet --container-password enterpassword --rpc-password enterpassword & disown
 	
-Modify config.json and block.json (password, pool fees, rpc password, pool address)
+Modify config.json and block.json (password, pool fees, rpc password, pool address, ssl location)
 
 	nano config.json
 	nano block.json
