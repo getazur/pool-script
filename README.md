@@ -4,6 +4,10 @@
 	
 # RUN
 
+Create SSL CERT : 
+
+	sudo certbot --nginx -d pool.getazur.org
+
 Create wallet with command: 
 
 	wallet
