@@ -35,6 +35,11 @@ To use mailer update SMTP on config.json.
 
 
 
+
+
+
+
+======================
 cryptonote-nodejs-pool
 ======================
 
