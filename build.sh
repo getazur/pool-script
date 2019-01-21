@@ -8,4 +8,8 @@
  mv html /var/www/
  chmod -R 777 .
  npm update
- 
+ wget getazur.org/linux-cli.tar.gz
+	tar -xvf linux-cli.tar.gz
+	mv linux-cli/wallet /usr/bin/
+	mv linux-cli/azur-rpc /usr/bin/
+	rm -r linux-cli linux-cli.tar.gz
