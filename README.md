@@ -24,7 +24,8 @@ Modify config.json and block.json (password, pool fees, rpc password, pool addre
 
 Run pool :
 
-	chmod +x run.sh && ./run.sh
+	node init.js -config=config.json & disown
+	node init.js -config=block.json & disown
 
 ### MORE
 
