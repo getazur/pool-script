@@ -12,13 +12,9 @@ Create wallet with command:
 
 	wallet
 	
-Run Deamon: 
-
-	azurd & disown
-	
 Run Azur RPC Services:
 
-	azur-rpc --container-file pool.wallet --container-password enterpassword --rpc-password enterpassword & disown
+	azur-rpc --daemon-address supernode.getazur.org --daemon-port 15251 --container-file pool.wallet --container-password enterpassword --rpc-password enterpassword & disown
 	
 Modify config.json and block.json (password, pool fees, rpc password, pool address, ssl location)
 
