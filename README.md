@@ -25,7 +25,9 @@ Run pool :
 
 	chmod +x run.sh && ./run.sh
 
+# MORE
 
+To use mailer update SMTP on config.json.
 
 
 
