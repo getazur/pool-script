@@ -1,10 +1,7 @@
 # BUILD
 
 	git clone https://github.com/getazur/pool-script.git pool && cd pool && chmod +x build.sh && ./build.sh
-	wget getazur.org/linux-cli.tar.gz
-	tar -xvf linux-cli.tar.gz
-	mv linux-cli/wallet /usr/bin/
-	mv linux-cli/azur-rpc /usr/bin/
+
 	
 # RUN
 
