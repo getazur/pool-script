@@ -33,7 +33,7 @@
         "minerTimeout": 900,
         "sslCert": "/etc/letsencrypt/live/pool.getazur.org/fullchain.pem",
         "sslKey": "/etc/letsencrypt/live/pool.getazur.org/privkey.pem",
-        "sslCA": "/etc/letsencrypt/live/pool.getazur.org/fullchain.pem",
+        "sslCA": "/etc/letsencrypt/live/pool.getazur.org/cert.pem",
         "ports": [
             {
                 "port": 3000,
@@ -141,7 +141,7 @@
         "sslPort": 8119,
         "sslCert": "/etc/letsencrypt/live/pool.getazur.org/fullchain.pem",
         "sslKey": "/etc/letsencrypt/live/pool.getazur.org/privkey.pem",
-        "sslCA": "/etc/letsencrypt/live/pool.getazur.org/fullchain.pem",
+        "sslCA": "/etc/letsencrypt/live/pool.getazur.org/cert.pem",
         "trustProxyIP": true
     },
 
