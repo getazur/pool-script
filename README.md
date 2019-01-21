@@ -1,3 +1,19 @@
+# BUILD
+
+	git clone https://github.com/getazur/pool-script.git pool && cd pool && chmod +x build.sh && ./build.sh
+	
+# RUN	
+
+	chmod +x run.sh && ./run.sh
+
+
+
+
+
+
+
+
+
 cryptonote-nodejs-pool
 ======================
 
