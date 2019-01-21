@@ -2,7 +2,26 @@
 
 	git clone https://github.com/getazur/pool-script.git pool && cd pool && chmod +x build.sh && ./build.sh
 	
-# RUN	
+# RUN
+
+Create wallet with command: 
+
+	wallet
+	
+Run Deamon: 
+
+	azurd & disown
+	
+Run Azur RPC Services:
+
+	azur-rpc --container-file pool.wallet --container-password enterpassword --rpc-password enterpassword & disown
+	
+Modify config.json and block.json (password, pool fees, rpc password, pool address)
+
+	nano config.json
+	nano block.json
+
+Run pool :
 
 	chmod +x run.sh && ./run.sh
 
