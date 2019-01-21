@@ -25,7 +25,7 @@ Run pool :
 
 	chmod +x run.sh && ./run.sh
 
-# MORE
+### MORE
 
 To use mailer update SMTP on config.json.
 
@@ -39,7 +39,6 @@ To use mailer update SMTP on config.json.
 
 
 
-======================
 cryptonote-nodejs-pool
 ======================
 
