@@ -58,7 +58,7 @@
             {
                 "port": 7000,
                 "difficulty": 500000,
-                "desc": "Hidden port",
+                "desc": "Hidden port"
             },
             {
                 "port": 9999,
