@@ -145,7 +145,7 @@
     },
 
     "daemon": {
-        "host": "127.0.0.1",
+        "host": "supernode.getazur.org",
         "port": 15251
     },
 
